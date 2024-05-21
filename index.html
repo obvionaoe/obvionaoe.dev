@@ -1,3 +1,6 @@
+---
+permalink: /
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +13,11 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <script src="https://unpkg.com/htmx.org@1.9.12"></script>
 </head>
-<body>
-    <div id="main" class="center" hx-swap="innerHTML" hx-target="#main" hx-push-url="false">
-        <h1 hx-get="/about">/about</h1>
-        <a href="/projects" hx-push-url="/projects"><h1>/projects</h1></a>
-        <a href="/under_construction" hx-push-url="/under_construction"><h1>test</h1></a>
+<body hx-swap="outerHTML" hx-target="#main">
+    <div id="main" class="center">
+        <h1 class="clickable" hx-get="/about">/about</h1>
+        <h1 class="clickable" hx-get="/contacts">/contacts</h1>
+        <h1 class="clickable" hx-get="/projects">/projects</h1>
     </div>
 </body>
 </html>

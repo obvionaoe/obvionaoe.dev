@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background-color: #000000;
+  background-color: #1a1a1a;
   color: #ffffff;
 }
 
@@ -26,24 +26,9 @@ a {
   display: block;
 }
 
-a:link {
-  color: #ffffff;
-}
-
-a:visited {
-  color: #ffffff;
-}
-
-a:hover {
+.clickable:hover {
   color: #aba4a4;
-}
-
-a:active {
-  color: #aba4a4;
-}
-
-a:link, a:hover, a:visited {
-  text-decoration: none;
+  cursor: pointer;
 }
 
 h1 {
