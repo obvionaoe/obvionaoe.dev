@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/htmx.org@1.9.12"></script>
 </head>
 <body>
-    <div class="center" hx-swap="outerHTML" hx-push-url="false">
+    <div id="main" class="center" hx-swap="innerHTML" hx-target="#main" hx-push-url="false">
         <h1 hx-get="/about">/about</h1>
         <a href="/projects" hx-push-url="/projects"><h1>/projects</h1></a>
         <a href="/under_construction" hx-push-url="/under_construction"><h1>test</h1></a>
