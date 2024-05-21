@@ -25,3 +25,27 @@ body {
 a {
   display: block;
 }
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #aba4a4;
+}
+
+a:active {
+  color: #aba4a4;
+}
+
+a:link, a:hover, a:visited {
+  text-decoration: none;
+}
+
+h1 {
+  white-space: nowrap;
+}
