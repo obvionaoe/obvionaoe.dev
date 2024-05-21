@@ -39,7 +39,15 @@ h1 {
   animation-name: wave-animation;
   animation-duration: 2s;
   animation-iteration-count: one;
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+.wave:hover {
+  animation-name: wave-animation;
+  animation-duration: 2s;
+  animation-iteration-count: one;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
